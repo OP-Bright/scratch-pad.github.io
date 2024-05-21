@@ -19,10 +19,20 @@
  *  d. how do you concatenate Strings? What operator do we use?
  */
 
+/*
+I: a string
+O: the string, but in reverse
+C: none
+E: none
+*/
+
 function reverseString(input) {
     // YOUR CODE GOES BELOW HERE //
-    
-    
+    let newString = "";
+    for (let i = input.length - 1; i >= 0; i--) {
+      newString += input[i];
+    }
+    return newString;
     
     
     // YOUR CODE GOES ABOVE HERE //
