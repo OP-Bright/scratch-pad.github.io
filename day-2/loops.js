@@ -10,6 +10,14 @@
  * Given an input Array, loop forward over the Array and print its values 
  * using console.log().
  */
+
+/*
+I: an array
+O: the values of the array to the console
+C: none
+E: none
+*/
+
 function printArrayValues(array) {
   // YOUR CODE BELOW HERE //
   
@@ -25,6 +33,14 @@ function printArrayValues(array) {
  * Given an input Array, loop backwards over the Array and print its values 
  * using console.log().
  */
+
+/*
+I: an array
+O: the values of the array to the console in reverse order
+C: none
+E: none
+*/
+
 function printArrayValuesInReverse(array) {
   // YOUR CODE BELOW HERE //
   
@@ -38,6 +54,14 @@ function printArrayValuesInReverse(array) {
 /** 
  * Given an input Object, return an Array containing the Object keys.
  */
+
+/*
+I: an object
+O: an array with each of the keys of an object
+C: none
+E: none
+*/
+
 function getObjectKeys(object) {
   // YOUR CODE BELOW HERE //
   var arr = [];
@@ -53,6 +77,14 @@ function getObjectKeys(object) {
  * Given an input Object, loop over the Object and print its keys 
  * using console.log().
  */
+
+/*
+I: an object
+O: every key of the object printed to the console
+C: none
+E: none
+*/
+
 function printObjectKeys(object) {
   // YOUR CODE BELOW HERE //
   
@@ -67,6 +99,14 @@ function printObjectKeys(object) {
 /** 
  * Given an input Object, return an Array containing the Object's values.
  */
+
+/*
+I: an object
+O: an array with every value in the object.
+C: none
+E: none
+*/
+
 function getObjectValues(object) {
   // YOUR CODE BELOW HERE //
   
@@ -84,6 +124,14 @@ function getObjectValues(object) {
  * Given an input Object, loop over the Object and print its values 
  * using console.log().
  */
+
+/*
+I: an object
+O: every value of the object printed to the console.
+C: none
+E: none
+*/
+
 function printObjectValues(object) {
   // YOUR CODE BELOW HERE //
 
@@ -97,6 +145,14 @@ function printObjectValues(object) {
 /** 
  * Given an input Object, return the number of key/value pairs stored within that Object.
  */
+
+/*
+I: an object
+O: a number, which corresponds to the amounts of keys/values present in an object.
+C: none
+E: none
+*/
+
 function getObjectLength(object) {
   // YOUR CODE BELOW HERE //
   var keyValueCount = 0;
@@ -112,6 +168,14 @@ function getObjectLength(object) {
  * Given an input Object, how might we loop over the Object IN REVERSE and 
  * print its values using console.log()?
  */
+
+/*
+I: an object
+O: every value within the object in reverse order.
+C: none
+E: none
+*/
+
 function printObjectValuesInReverse(object) {
   // YOUR CODE BELOW HERE //
   

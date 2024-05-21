@@ -33,6 +33,13 @@
  *      the exact case.
  */
 
+/*
+I: a number, which will be 1-24
+O: a greeting printed to the console, different depending on the hour given.
+C: none
+E: what if the hour given is not a number or is not 1-24?
+*/
+
 function greeter(hour) {
     // YOUR CODE BELOW HERE //
     if (hour >= 0 && hour < 12) {
