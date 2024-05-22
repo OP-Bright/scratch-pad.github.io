@@ -11,6 +11,14 @@
  * return a Function that tests whether a given value is greater than the 
  * base.
  */
+
+/*
+I: anything, but mostly a number
+O: a function that checks if a value passed through is greater than the provided base.
+C: none
+E: none
+*/
+
 function createGreaterThanFilter(base) {
     // YOUR CODE BELOW HERE //
     
@@ -30,6 +38,14 @@ function createGreaterThanFilter(base) {
  * return a Function that tests whether a given value is less than the 
  * base. (test means return true or false)
  */
+
+/*
+I: anything, but mostly a number
+O: a function that checks if a value passed through is less than the provided base.
+C: none
+E: none
+*/
+
 function createLessThanFilter(base) {
     // YOUR CODE BELOW HERE //
     
@@ -49,6 +65,14 @@ function createLessThanFilter(base) {
  * Function that tests whether a given String starts with the startsWith 
  * character.
  */
+
+/*
+I: a string, which should be a single letter
+O: a function that checks if a string passed through begins with the provided startsWith value.
+C: none
+E: none
+*/
+
 function createStartsWithFilter(startsWith) {
     // YOUR CODE BELOW HERE //
     return function (value) {
@@ -67,6 +91,14 @@ function createStartsWithFilter(startsWith) {
  * Function that tests whether a given String ends with the endsWith 
  * character.
  */
+
+/*
+I: a string, which should be a single letter
+O: a function that checks if a string passed through ends with the provided endsWith value.
+C: none
+E: none
+*/
+
 function createEndsWithFilter(endsWith) {
     // YOUR CODE BELOW HERE //
     
@@ -89,6 +121,14 @@ function createEndsWithFilter(endsWith) {
  * TIP: You need to loop over the Strings, right? We need to pass each String to 
  * the modify Function, but we need to collect the results into some collection.
  */
+
+/*
+I: an array of strings and a function that changes strings
+O: an array with each of the strings in the original array modified based on the provided modify function
+C: none
+E: none
+*/
+
 function modifyStrings(strings, modify) {
     // YOUR CODE BELOW HERE //
     
@@ -112,6 +152,14 @@ function modifyStrings(strings, modify) {
  * 
  * TIP: You need to loop over the Strings, right? And pass them to the test?
  */
+
+/*
+I: an array of strings and a function that tests strings
+O: true or false. true if all the strings in the array pass the provided test, false if any do not.
+C: none
+E: none
+*/
+
 function allStringsPass(strings, test) {
     // YOUR CODE BELOW HERE //
     

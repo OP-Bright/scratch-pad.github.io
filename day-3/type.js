@@ -14,6 +14,14 @@
  * 
  * HINT: There is a method that can help with this.
  */
+
+/*
+I: a value of unknown type
+O: true or false, true if the value if an array, false if it is not.
+C: none
+E: none
+*/
+
 function isArray(value) {
     // YOUR CODE BELOW HERE //
     
@@ -36,6 +44,14 @@ function isArray(value) {
  * with typeof.
  * 
  */
+
+/*
+I: a value of unknown type
+O: true or false, true if the value if an object, false if it is not (or is the Date object)
+C: none
+E: none
+*/
+
 function isObject(value) {
     // YOUR CODE BELOW HERE //
     console.log (value)
@@ -64,6 +80,14 @@ function isObject(value) {
  * 
  * TIP: Similar to isObject, but we must return true if the value is an Array.
  */
+
+/*
+I: a value of unknown type
+O: true or false, true if the value if an array or object, false if it is not.
+C: none
+E: none
+*/
+
 function isCollection(value) {
     // YOUR CODE BELOW HERE //
     
@@ -103,6 +127,14 @@ function isCollection(value) {
  *    typeOf("javascript") -> "string"
  *    typeOf([1,2,3]) -> "array"
  */ 
+
+/*
+I: a value of unknown type
+O: a string, denoting the type of the value. 
+C: Be significantly more specific than typeof
+E: none
+*/
+
 function typeOf(value) {
     // YOUR CODE BELOW HERE //
     

@@ -21,11 +21,28 @@
  *  b. you'll need a loop, which one is best?
  *  c. you'll wanna make use of the push() method of Array.
  */
+
+/*
+I: 2 numbers
+O: an array of all the whole numbers from start-end
+C: none
+E: none
+*/
+
 function range(start, end) {
     // YOUR CODE GOES BELOW HERE //
     
-    
-    
+    const newArr = [];
+    if (start > end) {
+        for (var i = start; i >= end; i--) {
+            newArr.push(i)
+        }
+    } else {
+        for (var i = start; i <= end; i++) {
+            newArr.push(i)
+        }
+    }
+    return newArr;
     
     // YOUR CODE GOES ABOVE HERE //
 }
