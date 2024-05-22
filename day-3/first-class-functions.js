@@ -14,7 +14,13 @@
 function createGreaterThanFilter(base) {
     // YOUR CODE BELOW HERE //
     
-   
+   return function (value) {
+    if (value > base) {
+        return true;
+    } else {
+        return false;
+    }
+   }
     
     // YOUR CODE ABOVE HERE //
 }
@@ -27,8 +33,13 @@ function createGreaterThanFilter(base) {
 function createLessThanFilter(base) {
     // YOUR CODE BELOW HERE //
     
-   
-    
+    return function (value) {
+        if (value < base) {
+            return true;
+        } else {
+            return false;
+        }
+       }
     
     // YOUR CODE ABOVE HERE //
 }
@@ -40,9 +51,13 @@ function createLessThanFilter(base) {
  */
 function createStartsWithFilter(startsWith) {
     // YOUR CODE BELOW HERE //
-    
-    
-    
+    return function (value) {
+        if (toLowerCase(value[0]) === toLowerCase(startsWith)) {
+            return true;
+        } else {
+            return false;
+        }
+       }
     
     // YOUR CODE ABOVE HERE //
 }
@@ -55,7 +70,13 @@ function createStartsWithFilter(startsWith) {
 function createEndsWithFilter(endsWith) {
     // YOUR CODE BELOW HERE //
     
-    
+    return function (value) {
+        if (toLowerCase(value[value.length - 1]) === toLowerCase(endsWith)) {
+            return true;
+        } else {
+            return false;
+        }
+       }
     
     
     // YOUR CODE ABOVE HERE //
@@ -71,8 +92,11 @@ function createEndsWithFilter(endsWith) {
 function modifyStrings(strings, modify) {
     // YOUR CODE BELOW HERE //
     
-    
-    
+    const newArr = [];
+    for (var i = 0; i < strings.length; i++) {
+        newArr.push(modify(strings[i]))
+    }
+    return newArr;
     
     // YOUR CODE ABOVE HERE //
 }
@@ -91,8 +115,13 @@ function modifyStrings(strings, modify) {
 function allStringsPass(strings, test) {
     // YOUR CODE BELOW HERE //
     
-    
-    
+    const newArr = [];
+    for (var i = 0; i < strings.length; i++) {
+        if (test(strings[i]) === false) {
+            return false
+        } 
+    }
+    return true;
     
     // YOUR CODE ABOVE HERE //
 }
